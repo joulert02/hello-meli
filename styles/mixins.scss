@@ -1,0 +1,20 @@
+/* Mixins */
+
+/* Mediaqueries */
+@mixin from($size) {
+  @media (min-width: $size) {
+    @content;
+  }
+}
+
+/* Definition config text */
+@mixin config_text($fontFamily, $fontSize, $lineHeight, $color) {
+  font-family: $fontFamily;
+  line-height: $lineHeight;
+  font-size: $fontSize;
+  color: $color;
+}
+
+@function prixelToRem($pxValue: 16px) {
+  @return #{$pxValue / $html-font-size}rem;
+}

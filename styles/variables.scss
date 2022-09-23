@@ -5,6 +5,9 @@ $gray-300: #999999;
 $gray-400: #eeeeee;
 $blue-100: #3483fa;
 
+// default html font size
+$html-font-size: 16px;
+
 :export {
   yellow-100: $yellow-100;
   gray-100: $gray-100;
@@ -12,4 +15,5 @@ $blue-100: #3483fa;
   gray-300: $gray-300;
   gray-400: $gray-400;
   blue-100: $blue-100;
+  html-font-size: $html-font-size;
 }
